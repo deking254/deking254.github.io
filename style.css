@@ -6,6 +6,14 @@ html {
 
 body {
 	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	background-image: url("safaricom_m-pesa_banner-750x375.jpg");
+	background-position: center;
+	background-size: cover;
+	flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    overflow: scroll;
 }
 
 hr {
@@ -13,15 +21,46 @@ hr {
 	border-width: 3px;
 	border-color: #F05F44;
 }
-
+.cont {
+	margin-top: 200px;
+}
+.screenshot {
+	margin-right: 5px
+}
+.description {
+	color: beige;
+}
+.links {
+	color: blueviolet;
+}
 .faded {
 	color: rgba(255, 255, 255, 0.8);
+	font-size: 5rem;
+}
+.card2 {
+	background-color: #fff0;
+	flex-direction: row;
+}
+.transactionspos {
+	margin-left: 50px;
+}
+.fadeded {
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 3rem;
+}
+.astyle {
+	font-size: 1.5rem;
+	color: #e57a2e;
 }
 header.Startup {
-	background-position: center;
-	background-image: url("safaricom_m-pesa_banner-750x375.jpg");
-	background-size: cover;
-	height: 100%;
+	height: fit-content;
+    width: 100%;
+    justify-content: end;
+}
+.feature{
+	    margin-top: 500px;
+	    font-size: 1.5rem;
+}
 }
 
 header.Startup hr {
@@ -51,3 +90,40 @@ header.Startup hr {
 	border-color: #ee4b88;
 	
 }
+
+/* Reset default margin and padding for the list */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #3330; /* Background color for the header */ /* Text color for the header */
+    padding: 10px 0; /* Add padding to create space around the navigation menu */
+}
+
+.top-right {
+    text-align: right; /* Right-align the navigation menu */
+    padding: 0 20px; /* Add padding to the right side of the navigation menu */
+}
+
+.top-right ul {
+    display: flex; /* Use flexbox to align the list items horizontally */
+}
+
+.top-right li {
+    margin-left: 20px; /* Add margin between list items (adjust as needed) */
+}
+
+.top-right a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color for the links */
+    font-weight: bold; /* Make the text bold */
+    font-size: 18px; /* Set the font size for the links */
+}
+
+.top-right a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
